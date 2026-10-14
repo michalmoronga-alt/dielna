@@ -1,0 +1,14 @@
+{
+  "name": "Dielňa — dielenský pomocník",
+  "short_name": "Dielňa",
+  "description": "Výpočty pre stolára: rozteč políc, šuplíky a ďalšie.",
+  "lang": "sk",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f6f7f8",
+  "theme_color": "#0d9488",
+  "icons": [
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
