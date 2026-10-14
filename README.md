@@ -5,7 +5,7 @@ Spája doterajšie appky **Rozteč políc** a **Šuflikátor** a pripravuje mies
 
 | Nástroj | Stav |
 |---|---|
-| Rozteč políc | presúva sa (dávka 2) |
+| Rozteč políc | hotové (dávka 2) — výpočet, nákres, tabuľka, PDF |
 | Šuplíky (Hettich Atira EB10.5) | presúva sa (dávka 3) |
 | Dvere a pánty, Plynové piesty, 32 mm raster | pripravujeme |
 
@@ -15,6 +15,13 @@ Spája doterajšie appky **Rozteč políc** a **Šuflikátor** a pripravuje mies
 - svetlá / tmavá téma (predvolene podľa telefónu) a akcent teal / cyan / indigo,
 - spoločné nastavenia: hrúbka materiálu (18 mm) a zaokrúhlenie (0,5 mm), uložené v telefóne (`localStorage`),
 - register nástrojov, testy (Vitest) a CI (testy + build pri každom pushi).
+
+## Rozteč políc (dávka 2)
+
+- zadanie: vonkajšia/vnútorná výška, hrúbka (predvolená zo spoločných nastavení), počet políc; „Viac“: rýchle hrúbky, výšky od dna/spodnej hrany, zaokrúhlenie,
+- na mobile sa zadanie, výsledok aj nákres zmestia na jednu obrazovku, pod nimi tabuľka výšok,
+- **Stiahnuť PDF** — skutočný vektorový PDF súbor (jsPDF): nákres čiarami, tabuľka, slovenská diakritika cez vložené písmo Inter. Knižnica sa načíta až pri kliknutí.
+- nákres je zoznam tvarov (`core/draw/shapes.ts`), ktorý sa kreslí do SVG aj do PDF — jeden kód, rovnaký výsledok.
 
 ## Spustenie
 
