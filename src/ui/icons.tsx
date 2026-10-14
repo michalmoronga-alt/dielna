@@ -20,3 +20,5 @@ export const IconLogo = () => (
     <path d="M3 17 13 7M11 5l4 4M14 2l4 4-2 2-4-4z" /><path d="M3 17l2-5 3 3z" fill="currentColor" />
   </svg>
 );
+export const IconSliders = () => <S size={18}><path d="M3 6h9M15 6h2M3 14h2M8 14h9" /><circle cx="13.5" cy="6" r="1.8" /><circle cx="6.5" cy="14" r="1.8" /></S>;
+export const IconDownload = () => <S size={17}><path d="M10 3v10M6 9l4 4 4-4M4 16h12" /></S>;
